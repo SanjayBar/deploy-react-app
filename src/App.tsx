@@ -1,7 +1,7 @@
 import { useState, Suspense } from "react";
 
 const Hello = () => {
-  const [showMainDiv, setShowMainDiv] = useState(true);
+  const showMainDiv = true;
   const [konvaComponents, setKonvaComponents] = useState<any>({});
 
   const importKonvaComponents = () => {
